@@ -195,10 +195,9 @@
             // 
             this.queryCmb.FormattingEnabled = true;
             this.queryCmb.Items.AddRange(new object[] {
-            "Titles and authors sorted by title",
-            "Titles and authors sorted by title, further sorted last name and first name",
-            "Authors grouped by title, sorted by title, further sorted by last name and first " +
-                "name"});
+            "Sorted by title",
+            "Sorted by title, last name and first name",
+            "Grouped by title, sorted by title, last name and first name"});
             this.queryCmb.Location = new System.Drawing.Point(0, 534);
             this.queryCmb.Name = "queryCmb";
             this.queryCmb.Size = new System.Drawing.Size(537, 21);
